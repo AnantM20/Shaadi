@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+
+                    android:id="@+id/imageView13"
+                    android:layout_width="129dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/avatar"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="selfclicker"
+
+                    android:text="Self"
+                    android:layout_marginLeft="10dp"
+
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    app:srcCompat="@drawable/manager" />
+
+                <Button
+                    android:id="@+id/textView60"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="brotherclicker"
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:text="Brother"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView53"
+                    android:layout_width="128dp"
+                    android:layout_height="202dp"
+                    app:srcCompat="@drawable/group" />
+
+                <Button
+                    android:id="@+id/textView55"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="relativeclicker"
+                    android:text="Relatives"
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+
+                    android:id="@+id/imageView21"
+                    android:layout_width="129dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="10dp"
+                    app:srcCompat="@drawable/girl" />
+
+                <Button
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="daughterclicker"
+                    android:text="Daughter"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="202dp"
+                    app:srcCompat="@drawable/boy" />
+
+                <Button
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="sonclicker"
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:text="Son"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="128dp"
+                    android:layout_height="202dp"
+                    app:srcCompat="@drawable/woman" />
+
+                <Button
+                    android:id="@+id/textView11"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="sisterclicker"
+                    android:text="Sister"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/custum_btn_card"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--        <Button-->
+        <!--            android:id="@+id/button2"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Button" />-->
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

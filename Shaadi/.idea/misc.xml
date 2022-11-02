@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/custom_btn_1.xml" value="0.1575" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/custom_input.xml" value="0.2635" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/custum_btn_card.xml" value="0.158" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/feedback.xml" value="0.184" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_arrow_left_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_location_city_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_phone_iphone_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/likebtn.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/list_itemsa.xml" value="0.184" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/lovebtn.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/preesl.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/radio_normal.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/radio_selected.xml" value="0.137" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/radio_selector.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/side_nav_bar.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/drawable/text_color.xml" value="0.1675" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/font/aclonica.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/font/aldrich.xml" value="0.3" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/accepted.xml" value="0.2734375" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_accept.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_accepted.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_drawerbox.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_malefemale.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_personaldetails.xml" value="0.264" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_register_pg.xml" value="0.22695035460992907" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/activity_register_pg2.xml" value="0.1893491124260355" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/app_bar_drawerbox.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/changepassword.xml" value="0.2734375" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/content_drawerbox.xml" value="0.264" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_gallery.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_help.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_myvisitor.xml" value="0.2" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_proposal.xml" value="0.264" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_setting.xml" value="0.2734375" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/fragment_slideshow.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/list_add.xml" value="0.3151041666666667" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/list_email.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/list_image.xml" value="0.29925187032418954" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/list_info.xml" value="0.1" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/list_item.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/nav_header_drawerbox.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/layout/rashmika_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/menu/drawerbox.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1695" />
+        <entry key="..\:/Users/anant/AndroidStudioProjects/Shaadi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

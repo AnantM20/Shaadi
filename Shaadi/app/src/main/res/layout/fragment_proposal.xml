@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardCornerRAdius="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:background="#C57171"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:text="Be with me today and forever ...."
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="712dp"
+            android:layout_marginTop="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="?actionBarSize">-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="64dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:padding="15dp"-->
+<!--                        android:src="@drawable/ic_baseline_keyboard_double_arrow_left_24" />-->
+
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="58dp"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_centerVertical="true"-->
+<!--                        android:padding="15dp"-->
+<!--                        android:src="@drawable/ic_baseline_notifications_24" />-->
+
+<!--                </RelativeLayout>-->
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Aditi Jadhav"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Fashion Designer, 18yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton4"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton5"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+
+<!--                        android:textColor="@color/black" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/aditi"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="13dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Sanskruti S"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Software Developer, 25yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton78"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton79"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+<!--                        android:textColor="@color/black" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/surekha"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="13dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Tejasri Pradhan"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Actress, 23yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton31"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton32"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+
+<!--                    <Button-->
+<!--                        android:id="@+id/gopikabtn"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+<!--                        android:textColor="@color/black" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/tejashri"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="13dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Madhura K"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Fashion Designer, 20yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton112"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton113"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+<!--                        android:textColor="@color/black" />-->
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/cute"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="13dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Aakshdha"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Sales Assistant, 23yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup114"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton115"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton116"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+<!--                        android:textColor="@color/black" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/foregin"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/proback"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="150dp">
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:fontFamily="@font/alatsi"
+                        android:padding="25dp"
+                        android:text="Rashmika M"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="253dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="0dp"
+                        android:padding="25dp"
+                        android:text="Senior Tech. Writer, 26yrs"
+                        android:textColor="#D3716E6E"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <RadioGroup
+                        android:id="@+id/radioGroup116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="140dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_marginEnd="33dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+
+                        <RadioButton
+                            android:id="@+id/radioButton119"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/radio_selector"
+
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="30dp"
+                            android:text="Accept"
+
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="43dp"
+                            tools:layout_editor_absoluteY="288dp" />
+
+                        <RadioButton
+                            android:id="@+id/radioButton120"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/radio_selector"
+                            android:button="@android:color/transparent"
+                            android:paddingLeft="25dp"
+                            android:text="Delete"
+                            android:textColor="@drawable/text_color"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:layout_editor_absoluteX="176dp"
+                            tools:layout_editor_absoluteY="307dp" />
+
+
+                    </RadioGroup>
+
+<!--                    <Button-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginLeft="120dp"-->
+<!--                        android:layout_marginBottom="30dp"-->
+<!--                        android:background="#DF8ADE"-->
+<!--                        android:padding="10dp"-->
+<!--                        android:text="check profile"-->
+<!--                        android:textColor="@color/black" />-->
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="108dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="18dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="237dp"
+                        android:layout_marginBottom="18dp"
+                        android:src="@drawable/rashmika"
+                        app:civ_border_color="#A69696"
+                        app:civ_border_width="2dp" />
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

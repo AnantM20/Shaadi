@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/avatar"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_myvisitor"
+            android:icon="@drawable/group"
+            android:title="My visitor" />
+        <item
+            android:id="@+id/nav_proposal"
+            android:icon="@drawable/girl"
+            android:title="Proposal  to  me" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Setting" />
+
+
+        <item
+            android:id="@+id/nav_shareapp"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@android:drawable/btn_star"
+            android:title="Logout" />
+    </group>
+</menu>

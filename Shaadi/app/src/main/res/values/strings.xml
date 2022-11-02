@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Shaadi</string>
+    <!--    <string name="select">Religion</string>-->
+    <string-array name="brew_array">
+        <item>Religion</item>
+        <item>Hindu</item>
+        <item>Christianity</item>
+        <item>Muslim</item>
+        <item>Shikh</item>
+    </string-array>
+
+    <string-array name="brew_array1">
+        <item>language</item>
+        <item>Marathi</item>
+        <item>Tamil</item>
+        <item>Hindi</item>
+        <item>English</item>
+    </string-array>
+    <string name="title_activity_drawerbox">drawerbox</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Virat kohli</string>
+    <string name="nav_header_subtitle">virushka@kohli.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <!--    <string name="menu_slideshow">Slideshow</string>-->
+</resources>

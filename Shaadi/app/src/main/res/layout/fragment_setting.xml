@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backprol">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:cardCornerRAdius="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image555"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/virat"
+            app:civ_border_color="#A69696"
+            app:civ_border_width="2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_special" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="17dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Features"
+                    android:textColor="#F8554A4A"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="155dp"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="1dp"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="17dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Location"
+                    android:textColor="#F8554A4A"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="155dp"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <Switch
+                    android:id="@+id/switch12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="1dp"
+                    android:src="@drawable/key" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="17dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Password"
+                    android:textColor="#F8554A4A"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="155dp"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <Switch
+                    android:id="@+id/switch2"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="1dp"
+                    android:src="@drawable/notification" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="17dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Notifications"
+                    android:textColor="#F8554A4A"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="155dp"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <Switch
+                    android:id="@+id/switch3"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="234dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="1dp"
+                    android:src="@drawable/feedback" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="17dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text=" Feedback"
+                    android:textColor="#F8554A4A"
+                    android:textSize="14sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="155dp"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+
+                <Switch
+                    android:id="@+id/switch4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
